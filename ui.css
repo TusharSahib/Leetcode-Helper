@@ -1,0 +1,35 @@
+#leetHintBox {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  background: #000000;
+  color: #ff4c4c;
+  padding: 15px;
+  z-index: 10000;
+  font-family: Arial, sans-serif;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+  width: 250px;
+}
+
+#leetHintBox button {
+  background: transparent;
+  color: #ff4c4c;
+  border: 1px solid #ff4c4c;
+  padding: 5px 10px;
+  margin: 6px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#leetHintBox button:hover {
+  background: #ff4c4c;
+  color: #000;
+}
+
+#hintOutput {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: #ffdfdf;
+}

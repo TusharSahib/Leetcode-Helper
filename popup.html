@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LeetHelper</title>
+    <link rel="stylesheet" href="ui.css" />
+    <style>
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: #18181b;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+      }
+      .leetHintBox {
+        background: #23272f;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        padding: 24px 20px 18px 20px;
+        margin: 18px;
+        min-width: 260px;
+        max-width: 320px;
+      }
+      .leetHintBox h3 {
+        margin-top: 0;
+        font-size: 1.2em;
+        color: #7dd3fc;
+        letter-spacing: 0.5px;
+      }
+      .leetHintBtn {
+        display: block;
+        width: 100%;
+        margin: 10px 0 0 0;
+        padding: 10px 0;
+        background: linear-gradient(90deg, #38bdf8 0%, #0ea5e9 100%);
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        font-size: 1em;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
+      .leetHintBtn:hover {
+        background: linear-gradient(90deg, #0ea5e9 0%, #38bdf8 100%);
+      }
+      #hintOutput {
+        margin-top: 18px;
+        color: #fbbf24;
+        font-size: 1em;
+        min-height: 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="leetHintBox">
+      <h3>LeetCode Helper</h3>
+      <button class="leetHintBtn" id="hintBrute">Brute Force</button>
+      <button class="leetHintBtn" id="hintOptimal">Optimal</button>
+      <button class="leetHintBtn" id="hintMostOptimal">Most Optimal</button>
+      <div id="hintOutput"></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
